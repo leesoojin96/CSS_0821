@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>mix blend</title>
+    <style media="screen">
+      body{
+        background-image: url(images/stage.jpg);
+      }
+      #blend{
+        font-size: 2rem;
+        font-weight: bold;
+        color : #fff;
+        mix-blend-mode: difference;
+      }
+      #blend h1 {
+        margin-top: 100px;
+      }
+      #blend p {
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="blend">
+      <h1>Exploring Blend Modes in CSS</h1>
+      <p>Two properties allow us to blend colors together in CSS: mix-blend-mode and background-blend-mode.<br>
+        With mix-blend-mode, we define the blending between the element and the element(s) that are behind it.<br>
+        With background-blend-mode, we define the blending between the element’s background image and its background color.
+      <p>
+    </div>
+  </body>
+</html>

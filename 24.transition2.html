@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>transition2</title>
+    <style media="screen">
+      div{
+        font-size: 20px;
+        background: #fff2a6;
+        color: blue;
+        padding: 10px;
+        width: 100px;
+        height: 50px;
+        transition: height 0.5s;
+        transition-timing-function: linear;
+      }
+      div:hover{
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body onload="document.querySelector('body').style.backgroundColor='black';">
+    <div>transition</div>
+  </body>
+</html>
